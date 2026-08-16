@@ -17,9 +17,17 @@ Przykład dla ceny początkowej `100 chaos`:
 
 `100 -> 90 -> 81 -> 72 -> 64 -> 57 -> 51 -> 45 -> 40 -> 36 -> 32 -> 30`
 
+## Wymagania i instalacja
+
+Plugin jest przygotowany dla **ExileApi-Compiled v329.18** (`.NET 10`). Skopiuj cały katalog `Prices` do:
+
+`ExileApi-Compiled/Plugins/Source/Prices`
+
+Plik projektu odwołuje się bezpośrednio do `ExileCore.dll` i `GameOffsets.dll` znajdujących się w głównym katalogu ExileApi-Compiled. Nie wymaga repozytorium źródłowego `Core/Core.csproj`.
+
 ## Użycie
 
-1. Włącz plugin `Prices` w ExileApi.
+1. Uruchom ExileApi i włącz plugin `Prices`.
 2. Otwórz panel Merchant Shop i pozostaw grę na pierwszym planie.
 3. Plugin wykona przebieg po upływie 5 minut. Klawisz `F8` uruchamia przebieg ręcznie.
 4. Przytrzymanie prawego przycisku myszy, zamknięcie panelu lub utrata fokusu gry przerywa przebieg.
